@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "next build && touch dist/.nojekyll && git add --force dist && git commit -m 'Deploy to gh-pages' && git subtree push --prefix dist origin gh-pages"
   },
   "dependencies": {
     "@heroicons/react": "^2.0.17",
