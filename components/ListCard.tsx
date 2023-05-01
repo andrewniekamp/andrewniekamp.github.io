@@ -9,7 +9,7 @@ export default function ListCard(props: Props) {
   return (
     <div className="rounded-md overflow-hidden shadow-lg p-4 w-64">
       <div className="px-6 py-4">
-        <div className="flex font-bold text-xl mb-2 gap-2">
+        <div className="flex text-xl mb-2 gap-2">
           {icon}
           {header}
         </div>
