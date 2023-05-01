@@ -2,14 +2,16 @@
   "name": "portfolio-nextjs",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://andrewniekamp.github.io",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "next build && touch dist/.nojekyll && git add --force dist && git commit -m 'Deploy to gh-pages' && git subtree push --prefix dist origin gh-pages"
+    "predeploy": "npm run build && touch ./dist/.nojekyll && echo 'drewniekamp.com' > ./dist/CNAME",
+    "deploy": "gh-pages -d dist -t true"
   },
-  "dependencies": {
+  "devDependencies": {
     "@heroicons/react": "^2.0.17",
     "@types/node": "18.16.1",
     "@types/react": "18.2.0",
@@ -17,6 +19,7 @@
     "autoprefixer": "10.4.14",
     "eslint": "8.39.0",
     "eslint-config-next": "13.3.1",
+    "gh-pages": "^5.0.0",
     "next": "13.3.1",
     "postcss": "8.4.23",
     "react": "18.2.0",
