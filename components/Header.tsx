@@ -18,14 +18,11 @@ export default function Header() {
         <Link className="text-blue-400 sp-2" href="/about">
           About
         </Link>
-        {/* <Link className="text-blue-400 sp-2" href="/resume">
+        <Link className="text-blue-400 sp-2" href="/resume">
           Resume
         </Link>
-        <Link className="text-blue-400 sp-2" href="/projects">
+        {/* <Link className="text-blue-400 sp-2" href="/projects">
           Projects
-        </Link>
-        <Link className="text-blue-400 sp-2" href="/misc">
-          Misc
         </Link> */}
       </div>
     </main>
