@@ -8,15 +8,15 @@ interface Props {
 export default function Tab(props: Props) {
   const { active, label, position, selectTab } = props;
   return (
-    <li className="mr-2">
+    <li>
       <a
         href="#"
         onClick={() => selectTab(position)}
         className={`${
           active
-            ? " active border-b-2 border-blue-400  dark:border-blue-500 dark:text-blue-500  text-blue-600"
+            ? " active border-b-blue-400 dark:border-blue-500 dark:text-blue-500 text-blue-600"
             : " hover:border-gray-300 dark:hover:text-gray-300 hover:text-gray-600 border-transparent"
-        } inline-block p-4  border-transparent rounded-t-lg  `}
+        } border-b-2 inline-block p-4 rounded-t-lg`}
         aria-current={active}
       >
         {label}
