@@ -4,7 +4,7 @@ import { Inter } from "next/font/google";
 import Header from "../components/Header";
 import Head from "next/head";
 
-const font = Inter({ weight: "400", subsets: ["latin"] });
+const font = Inter({ subsets: ["latin"] });
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
