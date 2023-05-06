@@ -8,7 +8,7 @@ interface Props {
 export default function PortfolioCard(props: Props) {
   const { project } = props;
   return (
-    <div className="relative flex-grow border-2 rounded-lg xs:w-[98vw] xs:h-[98vw] md:w-[45vw] md:h-[45vw] min-w-[300px] min-h-[300px] overflow-hidden">
+    <div className="relative flex-grow border-2 rounded-lg xs:w-[98vw] xs:h-[98vw] md:w-[45vw] md:h-[45vw] min-w-[300px] min-h-[300px] max-w-[500px] max-h-[500px] overflow-hidden">
       <div className="flex justify-between bg-slate-200 relative z-10 border-b lg:min-h-fit">
         {project.logoUrl ? (
           <div className="p-2">
