@@ -15,15 +15,15 @@ export default function Header() {
         </div>
       </div>
       <div className="flex gap-4 justify-between md:justify-end p-3 pt-6">
-        <Link className="text-blue-400 sp-2" href="/about">
-          About
+        <Link className="text-blue-400 sp-2" href="/portfolio">
+          Portfolio
         </Link>
         <Link className="text-blue-400 sp-2" href="/resume">
           Resume
         </Link>
-        {/* <Link className="text-blue-400 sp-2" href="/projects">
-          Projects
-        </Link> */}
+        <Link className="text-blue-400 sp-2" href="/about">
+          About
+        </Link>
       </div>
     </main>
   );
