@@ -19,3 +19,11 @@ export interface ResumeRecord {
   points?: string[];
   technologies?: string[];
 }
+
+export interface Project {
+  title: string;
+  description: string;
+  imageUrl: string;
+  technologies: string[];
+  logoUrl?: string;
+}
