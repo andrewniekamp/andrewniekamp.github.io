@@ -4,8 +4,28 @@ import { ResumeRecord } from "./types";
 export const RESUME_RECORDS: ResumeRecord[] = [
   {
     type: "EXPERIENCE",
-    startDate: "2022-05",
+    startDate: "2023-07",
     endDate: null,
+    header: "Lead Engineer",
+    subheader: "Booz Allen Hamilton",
+    location: "McLean, VA",
+    technologies: [
+      "ProcessUnity",
+      "MuleSoft",
+      "Git",
+      "Jira",
+    ],
+    points: [
+      "Design and develop vendor risk management implementations using ProcessUnity",
+      "Work closely with compliance professionals to refine requirements",
+      "Coordinate across multiple teams and manage project deliverables in Jira",
+      "Create and circulate comprehensive process documentation and demo videos"
+    ],
+  },
+  {
+    type: "EXPERIENCE",
+    startDate: "2022-05",
+    endDate: "2023-07",
     header: "Sr. Web Developer (Sr. Programmer Analyst)",
     subheader: "University of Dayton",
     location: "Dayton, OH",
