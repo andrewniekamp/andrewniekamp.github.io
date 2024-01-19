@@ -98,9 +98,14 @@ export const ABOUT_DETAILED_SUMMARY = (
     </p>
     <p>
       In 2022, I accepted a position at a university where I've immersed myself
-      in the university's learning applications and 3rd party integrations. I am
-      currently responsible for the development and maintenance of over a dozen
+      in the university's learning applications and 3rd party integrations. I was 
+      responsible for the development and maintenance of over a dozen
       applications, from mini-games to quizzes.
+    </p>
+    <p>
+      In 2023, I joined the enterprise team of a major consulting company. I'm 
+      currently working with tools that streamline compliance and supplier risk 
+      management.
     </p>
     <p>
       What I value most is being part of a diverse team in a role that is a good
