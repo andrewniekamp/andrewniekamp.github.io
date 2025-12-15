@@ -6,7 +6,7 @@ export const RESUME_RECORDS: ResumeRecord[] = [
     type: "EXPERIENCE",
     startDate: "2023-07",
     endDate: null,
-    header: "Lead Engineer",
+    header: "Software Engineer III",
     subheader: "Booz Allen Hamilton",
     location: "McLean, VA",
     technologies: [
